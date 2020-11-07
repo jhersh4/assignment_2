@@ -1,1 +1,33 @@
-test
+/*CSS*/
+body {
+    font-family: 'Squada One', cursive;
+    background: #545AA7;
+  }
+
+.header {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.search{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.results{
+    background: rgb(31,225,196);
+    background: linear-gradient(90deg, rgba(31,225,196,1) 28%, rgba(0,212,255,1) 71%, rgba(92,99,170,1) 96%);
+}
