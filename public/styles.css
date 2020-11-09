@@ -63,6 +63,14 @@ body {
 }
 
 
-
+@media screen and (max-width: 799px) {
+    .header {
+    text-align: center;
+    }
+    .search{
+    padding: 20px 30px;
+    font-size: 20px;
+    }
+    }
 
 
