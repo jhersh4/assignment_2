@@ -6,8 +6,9 @@ body {
   }
 
 .header {
-    color: #fff;
+    color: black;
     display: flex;
+    font-size: 30px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -37,5 +38,6 @@ body {
     text-align: center;
     margin-bottom: 5px;
     width: 60%;
+    font-size: 20px;
 
 }
