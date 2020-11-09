@@ -32,6 +32,9 @@ body {
 .results{
     background: rgb(31,225,196);
     background: linear-gradient(90deg, rgba(31,225,196,1) 28%, rgba(0,212,255,1) 71%, rgba(92,99,170,1) 96%);
+    float: left;
+    display: block;
+    text-align: center;
     margin-bottom: 5px;
     width: 60%;
 
