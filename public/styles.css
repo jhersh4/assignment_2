@@ -23,7 +23,6 @@ body {
 .searchInput{
     float: center;
     text-align:center;
-
 }
 
 .search{
@@ -31,6 +30,7 @@ body {
     align-items: center;
     display: block;
     text-align: center;
+    margin: 0 auto;
     padding: 14px 16px;
     margin-bottom: 5px;
     width: 60%;
@@ -40,11 +40,13 @@ body {
 
 .results{
     float: center;
+    margin: 0 auto;
 }
 
 .list li{
     list-style-type: none;
     color: black;
+    margin: 0 auto;
     padding: 12px;
     margin-top: 12px;
     background: linear-gradient(90deg, rgba(31,225,196,1) 28%, rgba(0,212,255,1) 71%, rgba(92,99,170,1) 96%);
