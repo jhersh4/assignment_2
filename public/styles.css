@@ -1,13 +1,17 @@
 /*CSS*/
 body {
     font-family: 'Squada One', cursive;
-    background: #545AA7;
+    background-color: #545AA7;
     color: black;
-  }
+    min-height: 100%;
+
+
+}
 
 .header {
-    color: #fff;
+    color: black;
     display: flex;
+    font-size: 30px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -30,12 +34,14 @@ body {
 }
 
 .results{
-    background: rgb(31,225,196);
-    background: linear-gradient(90deg, rgba(31,225,196,1) 28%, rgba(0,212,255,1) 71%, rgba(92,99,170,1) 96%);
+    background-color: rgb(31,225,196);
+    background-color: linear-gradient(90deg, rgba(31,225,196,1) 28%, rgba(0,212,255,1) 71%, rgba(92,99,170,1) 96%);
     float: left;
     display: block;
-    text-align: center;
+    text-align: start;
+    flex-direction: column;
     margin-bottom: 5px;
     width: 60%;
+    font-size: 20px;
 
 }
