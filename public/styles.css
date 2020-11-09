@@ -23,6 +23,7 @@ body {
 .search{
     float: left;
     display: block;
+    margin-right: 100px;
     text-align: center;
     padding: 14px 16px;
     margin-bottom: 5px;
@@ -31,16 +32,22 @@ body {
     font-size: 17px;
 }
 
-.ulList{
-    background-color: cadetblue;
-    float: left;
-    display: block;
-    text-align: start;
-    flex-direction: column;
-    margin-bottom: 5px;
-    width: 60%;
-    font-size: 20px;
+.results{
+    padding: 30px;
 }
+
+.list li{
+    list-style-type: none;
+    color: black;
+    padding: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    background: linear-gradient(90deg, rgba(31,225,196,1) 28%, rgba(0,212,255,1) 71%, rgba(92,99,170,1) 96%);
+    text-align: center;
+    width: 70%;
+    flex: 0 1 auto;
+  }
 
 .restname{
     font-weight: bold;

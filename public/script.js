@@ -20,8 +20,8 @@ function showmatches() {
         const expression = new RegExp(this.value,'gi');
         return `
         <li>
-        <span class="restname">${restaurant.name} || </span>
-        <span class="restcat">${restaurant.category} || </span>
+        <span class="restname">${restaurant.name} ~ </span>
+        <span class="restcat">${restaurant.category} ~ </span>
         <span class="restcity">${restaurant.city}</span>
         </li>
         `;
