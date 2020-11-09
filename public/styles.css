@@ -1,7 +1,7 @@
 /*CSS*/
 body {
     font-family: 'Squada One', cursive;
-    background: #545AA7;
+    background-color: #545AA7;
     color: black;
   }
 
@@ -30,8 +30,8 @@ body {
 }
 
 .results{
-    background: rgb(31,225,196);
-    background: linear-gradient(90deg, rgba(31,225,196,1) 28%, rgba(0,212,255,1) 71%, rgba(92,99,170,1) 96%);
+    background-color: rgb(31,225,196);
+    background-color: linear-gradient(90deg, rgba(31,225,196,1) 28%, rgba(0,212,255,1) 71%, rgba(92,99,170,1) 96%);
     float: left;
     display: block;
     text-align: center;
