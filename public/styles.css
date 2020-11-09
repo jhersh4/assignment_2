@@ -64,12 +64,14 @@ body {
 }
 
 @media screen and (max-width: 799px) {
+    .header{
+        text-align: center;
+    }
     .search {
         font-size: 30px;
         padding: 20px 30px;
-
     }
-  }
+}
 
 
 
