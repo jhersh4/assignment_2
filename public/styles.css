@@ -3,6 +3,9 @@ body {
     font-family: 'Squada One', cursive;
     background-color: #545AA7;
     color: black;
+    min-height: 100%;
+
+
   }
 
 .header {
@@ -35,7 +38,8 @@ body {
     background-color: linear-gradient(90deg, rgba(31,225,196,1) 28%, rgba(0,212,255,1) 71%, rgba(92,99,170,1) 96%);
     float: left;
     display: block;
-    text-align: center;
+    text-align: start;
+    flex-direction: column;
     margin-bottom: 5px;
     width: 60%;
     font-size: 20px;
