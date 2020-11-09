@@ -6,7 +6,7 @@ body {
     min-height: 100%;
 
 
-}
+  }
 
 .header {
     color: black;
@@ -34,7 +34,6 @@ body {
 }
 
 .results{
-    background-color: rgb(31,225,196);
     background-color: linear-gradient(90deg, rgba(31,225,196,1) 28%, rgba(0,212,255,1) 71%, rgba(92,99,170,1) 96%);
     float: left;
     display: block;
@@ -43,5 +42,28 @@ body {
     margin-bottom: 5px;
     width: 60%;
     font-size: 20px;
-
 }
+
+.ulList{
+    background-color: linear-gradient(90deg, rgba(31,225,196,1) 28%, rgba(0,212,255,1) 71%, rgba(92,99,170,1) 96%);
+    float: left;
+    display: block;
+    text-align: start;
+    flex-direction: column;
+    margin-bottom: 5px;
+    width: 60%;
+    font-size: 20px;
+}
+
+.restname{
+    font-weight: bold;
+}
+
+.restcity{
+    font-weight: italic;
+}
+
+
+
+
+
