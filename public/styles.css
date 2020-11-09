@@ -4,7 +4,7 @@ body {
     background-color: #545AA7;
     color: black;
     min-height: 100%;
-  }
+}
 
 .header {
     color: black;
@@ -13,17 +13,23 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     margin: 0;
     margin-bottom: 5px;
     padding: 4px 8px;
     border-radius: 4px;
 }
 
+.searchInput{
+    float: center;
+    text-align:center;
+
+}
+
 .search{
-    float: left;
+    float: center;
+    align-items: center;
     display: block;
-    margin-right: 100px;
     text-align: center;
     padding: 14px 16px;
     margin-bottom: 5px;
@@ -33,7 +39,7 @@ body {
 }
 
 .results{
-    padding: 30px;
+    float: center;
 }
 
 .list li{
@@ -41,7 +47,6 @@ body {
     color: black;
     padding: 12px;
     margin-top: 12px;
-    margin-right: 12px;
     background: linear-gradient(90deg, rgba(31,225,196,1) 28%, rgba(0,212,255,1) 71%, rgba(92,99,170,1) 96%);
     text-align: center;
     width: 70%;

@@ -11,7 +11,7 @@ fetch(end)
 function search (query, restarray){
     return restarray.filter(result => {
         const expression = new RegExp(query, 'gi')
-        return result.name.match(expression) || result.city.match(expression)
+        return result.name.match(expression) || result.city.match(expression) || result.category.match(expression)
     })};
 
 function showmatches() {
